@@ -1,0 +1,29 @@
+# FastAPI and server
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Authentication & Security
+python-jose[cryptography]
+passlib[bcrypt]
+python-dotenv
+
+# Data processing
+duckdb
+polars
+pandas
+pyarrow
+
+# Database (optional - for user management)
+sqlalchemy
+alembic
+
+# Validation
+pydantic
+pydantic-settings
+
+# CORS and middleware
+# python-cors -- it's within fastapi
+
+# Utilities
+httpx
